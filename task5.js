@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 const port = 3000;
 
-const API_KEY = 'your_api_key_here';
+const API_KEY = 'api';
 const API_URL = 'http://www.omdbapi.com/';
 
 async function fetchMovie(movieName) {
